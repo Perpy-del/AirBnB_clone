@@ -1,0 +1,163 @@
+.places {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.places h1 {
+    margin-bottom: 0;
+}
+
+article {
+    width: 390px;
+    height: 850px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.places_articles {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home_price h2 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    align-items: flex-end;
+    border-radius: 50%;
+    min-width: 60px;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    left: 90px;
+    
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.max_guest {
+    width: 100px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_rooms {
+    width: 100px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_bathrooms {
+    width: 100px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.places .amenities_a {
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.places .amenities_a h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    padding-left: 0;
+}
+
+.places .amenities_a ul {
+    /* list-style: none; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:40px;
+    /* padding-right: 10px; */
+    
+}
+.amenities_a li {
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding-right: 10px; */
+    gap: 10px;
+    /* float: left; */
+}
+
+.reviews {
+    margin-top: 40px;
+}
+
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.reviews li {
+    position: relative;
+    right:40px;
+}
+
+li h3 {
+    font-size: 14px;
+}
+
+li p {
+    font-size: 12px;
+}
